@@ -12,14 +12,11 @@
       "expo-dev-client",
       "expo-system-ui",
       [
-        "expo-build-properties",
+        "./plugins/withKotlinVersion",
         {
-          "android": {
-            "kotlinVersion": "2.2.20"
-          }
+          "version": "2.2.20"
         }
-      ],
-      ["./plugins/withKotlinVersion", { "version": "2.2.20" }]
+      ]
     ]
   }
 }
