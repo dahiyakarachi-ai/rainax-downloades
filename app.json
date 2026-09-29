@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "raowaheed",
+    "slug": "raowaheed",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "package": "com.raowaheed.rainaxdownloader"
+    },
+    "plugins": ["expo-dev-client"],
+    "cli": {
+      "appVersionSource": "remote"
+    }
+  }
+}
