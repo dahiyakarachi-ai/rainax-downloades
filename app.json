@@ -8,9 +8,6 @@
     "android": {
       "package": "com.raowaheed.rainaxdownloader"
     },
-    "plugins": ["expo-dev-client"],
-    "cli": {
-      "appVersionSource": "remote"
-    }
+    "plugins": ["expo-dev-client", "expo-system-ui"]
   }
 }
