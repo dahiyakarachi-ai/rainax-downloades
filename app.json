@@ -8,6 +8,17 @@
     "android": {
       "package": "com.raowaheed.rainaxdownloader"
     },
-    "plugins": ["expo-dev-client", "expo-system-ui"]
+    "plugins": [
+      "expo-dev-client",
+      "expo-system-ui",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "kotlinVersion": "2.2.20"
+          }
+        }
+      ]
+    ]
   }
 }
